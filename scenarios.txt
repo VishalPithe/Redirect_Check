@@ -1,0 +1,100 @@
+link : http://www.mountsilacrosse.org/
+
+With redirect false :
+301 : http://www.mountsilacrosse.org/
+http://mountsilacrosse.org/
+302 : http://mountsilacrosse.org/
+http://MOUNTSILACROSSE.ORG/app/index/list/?org=MOUNTSILACROSSE.ORG
+200 : http://MOUNTSILACROSSE.ORG/app/index/list/?org=MOUNTSILACROSSE.ORG
+With redirect true :
+200 : http://www.mountsilacrosse.org/
+
+link : http://www.ibm.com
+
+With redirect false :
+302 : http://www.ibm.com
+http://www.ibm.com/in-en/
+200 : http://www.ibm.com/in-en/
+With redirect true :
+200 : http://www.ibm.com
+
+link : https://stackoverflow.com/jobs?searchTerm=remote&sort=p
+
+With redirect true 
+https://stackoverflow.com/jobs?q=remote&sort=p
+With redirect false : 
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p
+/jobs?q=remote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+301 : https://stackoverflow.com/jobs?searchTerm=remote&sort=p/jobs?q=remote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p%2fjobs%3fq%3dremote&sort=p
+
+with redirect true
+200 : http://www.wbresearch.com/UpcomingEvents.aspx
+http://www.wbresearch.com/events
+with redirect false
+301 : http://www.wbresearch.com/UpcomingEvents.aspx
+/events
+301 : http://www.wbresearch.com/UpcomingEvents.aspx/events
+/events
+301 : http://www.wbresearch.com/UpcomingEvents.aspx/events
+/events
+301 : http://www.wbresearch.com/UpcomingEvents.aspx/events
+/events
+301 : http://www.wbresearch.com/UpcomingEvents.aspx/events
+/events
+
+
+301 : http://www.labusinessjournal.com/news/la-finance/
+200 : http://labusinessjournal.com/news/la-finance/
+http://labusinessjournal.com/news/la-finance/
+
+301 : http://www.jobs.pl/oferty/freelance;k/p-3?uf=1
+200 : http://www.jobs.pl/praca/freelance;k/p-3?uf=1
+http://www.jobs.pl/praca/freelance;k/p-3?uf=1
+
+301 : http://www.startupjobs.asia/site/freelance#Freelance
+200 : http://startupjobs.asia/site/freelance
+http://startupjobs.asia/site/freelance
+
+301 : http://www.wearefutureheads.co.uk/index.php/search/search&jobs-contract-type=Contract/
+200 : http://www.wearefutureheads.co.uk/search/search&jobs-contract-type=Contract/
+http://www.wearefutureheads.co.uk/search/search&jobs-contract-type=Contract/
+
+301 : http://www.go4worldbusiness.com/find/worldwide/all/buyers/buyleads/pp-%28polypropylene%29-woven-bag.html
+200 : https://www.go4worldbusiness.com/find/worldwide/all/buyers/buyleads/pp-(polypropylene)-woven-bag.html
+https://www.go4worldbusiness.com/find/worldwide/all/buyers/buyleads/pp-(polypropylene)-woven-bag.html
+
+301 : http://www.santafe.edu/gevent/seminars/
+302 : https://www.santafe.edu/gevent/seminars/
+301 : http://www.santafe.edu/events/current?
+200 : https://www.santafe.edu/events/current?
+https://www.santafe.edu/events/current?
+
+
+
+Redirects after 5 secs :
+working for :
+http://www.accountantwebsmiths.co.uk
+Not Working for :
+http://www.mda.gov.sg
